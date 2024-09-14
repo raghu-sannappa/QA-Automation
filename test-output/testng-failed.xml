@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="main.DemoOAuthTest">
+      <class name="main.AppleWorld">
         <methods>
-          <include name="TestOAuthEx"/>
+          <include name="getAllObjectDetails"/>
+          <include name="addNewObjects"/>
         </methods>
-      </class> <!-- main.DemoOAuthTest -->
+      </class> <!-- main.AppleWorld -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
